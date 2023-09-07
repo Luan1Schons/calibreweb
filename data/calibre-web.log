@@ -1,0 +1,49 @@
+[2023-09-07 19:19:35,585]  WARN {cps.config_sql:350} Log path None not valid, falling back to default
+[2023-09-07 19:19:35,627]  WARN {cps.config_sql:385} invalidating configuration
+[2023-09-07 19:19:35,650]  INFO {cps:176} Starting Calibre Web...
+[2023-09-07 19:19:35,968]  WARN {py.warnings:109} /usr/local/lib/python3.10/dist-packages/flask_limiter/extension.py:293: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+
+[2023-09-07 19:19:36,172]  INFO {apscheduler.scheduler:181} Scheduler started
+[2023-09-07 19:19:36,173]  INFO {apscheduler.scheduler:895} Added job "end scheduled task" to job store "default"
+[2023-09-07 19:19:36,350]  INFO {cps.ub:898} github Blueprint Created
+[2023-09-07 19:19:36,395]  INFO {cps.ub:898} google Blueprint Created
+[2023-09-07 19:19:37,428]  INFO {cps.server:207} Starting Gevent server on [::]:8083
+[2023-09-07 19:30:31,357]  INFO {cps.server:284} webserver stop (restart=False)
+[2023-09-07 19:30:31,358]  INFO {apscheduler.scheduler:212} Scheduler has been shut down
+[2023-09-07 19:30:32,360]  INFO {cps.server:262} Performing shutdown of Calibre-Web
+[2023-09-07 21:35:43,235]  WARN {cps.config_sql:350} Log path None not valid, falling back to default
+[2023-09-07 21:35:43,236]  WARN {cps.config_sql:385} invalidating configuration
+[2023-09-07 21:35:43,260]  INFO {cps:176} Starting Calibre Web...
+[2023-09-07 21:35:43,539]  WARN {py.warnings:109} /usr/local/lib/python3.10/dist-packages/flask_limiter/extension.py:293: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+
+[2023-09-07 21:35:43,690]  INFO {apscheduler.scheduler:181} Scheduler started
+[2023-09-07 21:35:43,691]  INFO {apscheduler.scheduler:895} Added job "end scheduled task" to job store "default"
+[2023-09-07 21:35:44,763]  INFO {cps.server:207} Starting Gevent server on [::]:8083
+[2023-09-07 21:41:19,026] ERROR {cps.admin:1858} DB Location is not Valid, Please Enter Correct Path
+[2023-09-07 22:45:21,931]  INFO {cps.server:284} webserver stop (restart=False)
+[2023-09-07 22:45:21,932]  INFO {apscheduler.scheduler:212} Scheduler has been shut down
+[2023-09-07 22:45:21,934]  INFO {cps.server:262} Performing shutdown of Calibre-Web
+[2023-09-07 23:11:09,259]  WARN {cps.config_sql:350} Log path None not valid, falling back to default
+[2023-09-07 23:11:09,308]  INFO {cps:176} Starting Calibre Web...
+[2023-09-07 23:11:09,788]  WARN {py.warnings:109} /usr/local/lib/python3.10/dist-packages/flask_limiter/extension.py:293: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+
+[2023-09-07 23:11:10,109]  INFO {apscheduler.scheduler:181} Scheduler started
+[2023-09-07 23:11:10,110]  INFO {apscheduler.scheduler:895} Added job "end scheduled task" to job store "default"
+[2023-09-07 23:11:11,699]  INFO {cps.server:207} Starting Gevent server on [::]:8083
+[2023-09-07 23:28:29,969]  INFO {cps.server:284} webserver stop (restart=False)
+[2023-09-07 23:28:29,972]  INFO {apscheduler.scheduler:212} Scheduler has been shut down
+[2023-09-07 23:28:29,975]  INFO {cps.server:262} Performing shutdown of Calibre-Web
+[2023-09-07 23:46:56,759]  WARN {cps.config_sql:350} Log path None not valid, falling back to default
+[2023-09-07 23:46:56,787]  INFO {cps:176} Starting Calibre Web...
+[2023-09-07 23:46:57,094]  WARN {py.warnings:109} /usr/local/lib/python3.10/dist-packages/flask_limiter/extension.py:293: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+
+[2023-09-07 23:46:57,252]  INFO {apscheduler.scheduler:181} Scheduler started
+[2023-09-07 23:46:57,253]  INFO {apscheduler.scheduler:895} Added job "end scheduled task" to job store "default"
+[2023-09-07 23:46:58,314]  INFO {cps.server:207} Starting Gevent server on [::]:8083
+[2023-09-07 23:48:59,093]  INFO {cps.server:284} webserver stop (restart=False)
+[2023-09-07 23:48:59,094]  INFO {apscheduler.scheduler:212} Scheduler has been shut down
+[2023-09-07 23:48:59,095]  INFO {cps.server:262} Performing shutdown of Calibre-Web
