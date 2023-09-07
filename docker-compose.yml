@@ -1,0 +1,33 @@
+version: "2.1"
+services:
+  calibre-web:
+    image: lscr.io/linuxserver/calibre-web:latest
+    container_name: calibre-web
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Warsaw
+      - DOCKER_MODS=linuxserver/mods:universal-calibre
+      - OAUTHLIB_RELAX_TOKEN_SCOPE=1
+    volumes:
+      - ./data:/config
+      - ./library:/books
+      - ./app:/calibre-web
+    ports:
+      - 8083:8083
+    restart: unless-stopped
+    networks:
+      - nginx-proxy
+  nginx:
+    image: nginx:latest
+    container_name: nginx
+    ports:
+      - 80:80
+    volumes:
+      - ./nginx/default:/etc/nginx/sites-avaiable
+      - ./proxy:/var/www/html
+    networks:
+      - nginx-proxy
+networks:
+  nginx-proxy:
+    external: true
